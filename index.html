@@ -1,7 +1,8 @@
 <html>
 <head>
-	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="build/css/styles.css">
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="bower_components/moment/min/moment.min.js"></script>
 	<script src="js/time-interface.js"></script>
@@ -11,6 +12,15 @@
 <body>
 	<h3>Well look at the time! </h3>
 	<h3 id="time"></h3>
+
+	<form id="alarmF">
+		<label>Alarm Time:</label>
+		<div class="box">
+			<input type="time" id="alarm">
+			<button class="button">Set Alarm</button>
+		</div>
+		
+	</form>
 
 </body>
 </html>
